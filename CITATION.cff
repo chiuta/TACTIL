@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use TACTIL in your work, please cite it as below."
+title: "TACTIL"
+abstract: "Tactile output layer: braille formats (BRF, Unicode), displays, embossers, touch-screen vibration; uses louis-rs for translation."
+type: software
+authors:
+  - family-names: "Chiuță"
+    given-names: "Alexandru-Ionuț"
+    alias: "Alexio"
+repository-code: "https://github.com/chiuta/TACTIL"
+url: "https://tactil.chiuta.ro"
+license: MIT
+version: "0.1.0-alpha.1"
+date-released: 2026-11-13
