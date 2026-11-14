@@ -2,13 +2,23 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-Version: 0.1.0-alpha.1 · Last updated: 13.11.2026
+Version: 0.1.0-alpha.1 · Last updated: 2026-11-14
 
 🌐 https://tactil.chiuta.ro
 
 ## Status
 
 Early skeleton (pre-alpha): the workspace builds and the tests pass in CI. Every planned feature is an open task in `docs/issues/`.
+
+## Planned scope
+
+- Six- and eight-dot braille cells, with every BRF character mapped to its dot set and documented in a table.
+- Page layout: cells per line, lines per page and word wrap that never splits a cell group.
+- BRF writer with form-feed page breaks and configurable line endings, plus a PEF (Portable Embosser Format) writer.
+- Optional back-ends: text to cells through `louis-rs`, and braille-display output through BRLTTY/BrlAPI.
+- Touch-screen vibration timing model (the ATINGERE core) and tactile graphics from raster images.
+
+None of this is implemented yet: each item is an open task in `docs/issues/`.
 
 ## Build and test
 

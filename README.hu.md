@@ -2,13 +2,23 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · **Magyar**
 
-Verzió: 0.1.0-alpha.1 · Utolsó frissítés: 13.11.2026
+Verzió: 0.1.0-alpha.1 · Utolsó frissítés: 2026-11-14
 
 🌐 https://tactil.chiuta.ro
 
 ## Állapot
 
 Korai váz (pre-alfa): a workspace lefordul, a tesztek a CI-ben lefutnak. Minden tervezett funkció nyitott feladat a `docs/issues/` mappában.
+
+## Tervezett terjedelem
+
+- Hat- és nyolcpontos braille-cellák, minden BRF-karakter a saját ponthalmazához rendelve és táblázatban dokumentálva.
+- Oldalelrendezés: cella soronként, sor oldalanként és szóközi törés, amely sosem vág szét cellacsoportot.
+- BRF-író oldaltöréssel (form feed) és beállítható sorvégekkel, valamint PEF-író (Portable Embosser Format).
+- Opcionális háttérmodulok: szöveg cellákká a `louis-rs`-sel, és kimenet braille-sorra BRLTTY/BrlAPI-n át.
+- Érintőképernyős rezgésidőzítési modell (az ATINGERE magja) és tapintható grafika raszterképekből.
+
+Ezek közül még semmi sincs megvalósítva: minden pont nyitott feladat a `docs/issues/` mappában.
 
 ## Fordítás és tesztelés
 

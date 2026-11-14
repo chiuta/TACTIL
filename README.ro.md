@@ -2,13 +2,23 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-Versiune: 0.1.0-alpha.1 · Ultima actualizare: 13.11.2026
+Versiune: 0.1.0-alpha.1 · Ultima actualizare: 2026-11-14
 
 🌐 https://tactil.chiuta.ro
 
 ## Stare
 
 Schelet timpuriu (pre-alfa): workspace-ul se compilează, iar testele trec în CI. Fiecare funcție planificată este o sarcină deschisă în `docs/issues/`.
+
+## Domeniu planificat
+
+- Celule braille cu șase și opt puncte, cu fiecare caracter BRF asociat setului lui de puncte și documentat într-un tabel.
+- Așezare în pagină: celule pe rând, rânduri pe pagină și mutare la capăt de rând fără a despărți un grup de celule.
+- Scriitor BRF cu salt de pagină (form feed) și terminații de rând configurabile, plus un scriitor PEF (Portable Embosser Format).
+- Backend-uri opționale: text în celule prin `louis-rs` și ieșire pe afișaj braille prin BRLTTY/BrlAPI.
+- Model de temporizare a vibrațiilor pe ecran tactil (nucleul ATINGERE) și grafică tactilă din imagini raster.
+
+Nimic din asta nu este implementat încă: fiecare punct este o sarcină deschisă în `docs/issues/`.
 
 ## Compilare și testare
 
